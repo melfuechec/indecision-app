@@ -6,7 +6,7 @@
     "serve": "live-server public/",
     "dev-server": "webpack-dev-server",
     "start": "node server.js",
-    "heroku-postbuild": "webpack-dev-server"
+    "heroku-postbuild": "webpack -p"
   },
   "author": "",
   "license": "ISC",

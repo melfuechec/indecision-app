@@ -6,8 +6,7 @@
     "serve": "live-server public/",
     "dev-server": "webpack-dev-server",
     "start": "node server.js",
-    "heroku-postbuild": "npm run build",
-    "build": "webpack"
+    "heroku-postbuild": "webpack -p"
   },
   "author": "",
   "license": "ISC",

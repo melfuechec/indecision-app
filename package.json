@@ -4,9 +4,10 @@
   "main": "index.js",
   "scripts": {
     "serve": "live-server public/",
-    "build": "webpack",
     "dev-server": "webpack-dev-server",
-    "start": "npm run dev-server"
+    "start": "serve -s build",
+    "heroku-postbuild": "npm run build",
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",

@@ -5,9 +5,9 @@
   "scripts": {
     "serve": "live-server public/",
     "dev-server": "webpack-dev-server",
-    "start": "serve -s build",
+    "start": "node server.js",
     "heroku-postbuild": "npm run build",
-    "build": "react-scripts build"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",

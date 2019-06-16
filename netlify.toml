@@ -1,0 +1,4 @@
+[build]
+base = "indecision-app/"
+publish = "indecision-app/public"
+command = "npm run build"

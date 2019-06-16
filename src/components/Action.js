@@ -4,7 +4,7 @@ const Action = (props) => (
             <div>
             <button className='big-button'
                 onClick={props.handlePick}
-                disabled={!props.hasOptions}>What Should I Do?
+                disabled={!props.hasOptions}>Decide For Me
             </button>
         </div>
     );
